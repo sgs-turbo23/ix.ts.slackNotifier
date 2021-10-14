@@ -1,0 +1,11 @@
+.devcontainer
+.github
+.node_modules
+src
+test
+.eslintrc.js
+.gitignore
+jest.config.ts
+README.md
+tsconfig.eslint.json
+tsconfig.json
