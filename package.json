@@ -1,6 +1,6 @@
 {
   "name": "@sgs-turbo23/ix.js.slack_notifier",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "Google App Script用の操作用クラス",
   "main": "slackNotifier.js",
   "scripts": {

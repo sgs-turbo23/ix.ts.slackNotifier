@@ -28,7 +28,7 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@sgs-turbo23'
       - run: npm install
-      - run: npm run build --if-present
+      # - run: npm run build --if-present
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
