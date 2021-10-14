@@ -20,6 +20,8 @@ class slackNotifier {
       payload: payload,
     };
 
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     UrlFetchApp.fetch(this.postUrl, options);
   }
 }
